@@ -28,5 +28,8 @@ struct Node {
  * @param root Pointer to the root of the tree to check for equal paths
  */
 bool equalPaths(Node * root);
+int maxpathLength(Node * root, int maxHeight, int sum);
+int minpathLength(Node * root, int minHeight, int sum);
+
 
 #endif
